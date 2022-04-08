@@ -1,0 +1,36 @@
+html,
+.body,
+.root {
+  height: 100%;
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+}
+
+.quizz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.quizz .card {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+label.radio {
+  display: block;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+label.radio + .radio {
+  margin-left: 0;
+}
+
+label.radio input {
+  margin-right: 10px;
+}
